@@ -1,4 +1,4 @@
-package com.coffeemetalcode.controller;
+package com.coffeemetalcode.controllers;
 
 import org.springframework.stereotype.Component;
 

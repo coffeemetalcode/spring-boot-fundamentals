@@ -1,17 +1,17 @@
-package com.coffeemetalcode.controller;
-
-import org.springframework.stereotype.Component;
+package com.coffeemetalcode.controllers;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="books")
-public class Books {
+public class Book {
     @Column(name="title")
     private String title;
 
+    @Id
     @Column(name="id")
     private String id;
 
