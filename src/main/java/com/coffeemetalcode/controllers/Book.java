@@ -1,5 +1,7 @@
 package com.coffeemetalcode.controllers;
 
+import org.hibernate.annotations.NaturalId;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -15,6 +17,7 @@ public class Book {
     @Column(name="id")
     private String id;
 
+    @NaturalId
     @Column(name="isbn")
     private String isbn;
 
